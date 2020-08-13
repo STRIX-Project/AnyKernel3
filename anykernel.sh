@@ -15,7 +15,7 @@ device.name2=twolip
 device.name3=
 device.name4=
 device.name5=
-supported.versions=10
+supported.versions=
 supported.patchlevels=
 '; } # end properties
 
