@@ -49,6 +49,8 @@ else
   patch_cmdline "androidboot.version" ""
 fi
 
+patch_cmdline "androidboot.selinux" "androidboot.selinux=permissive"
+
 # end ramdisk changes
 
 write_boot;
