@@ -4,15 +4,15 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=STRIX tulip Kernel by fiqri19102002 @ github
+kernel.string=STRIX mojito Kernel by fiqri19102002 @ github
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=tulip
-device.name2=twolip
-device.name3=
+device.name1=mojito
+device.name2=sunny
+device.name3=sunny_id
 device.name4=
 device.name5=
 supported.versions=
@@ -40,8 +40,6 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 dump_boot;
 
 # begin ramdisk changes
-
-patch_cmdline "androidboot.selinux" "androidboot.selinux=permissive"
 
 # end ramdisk changes
 
