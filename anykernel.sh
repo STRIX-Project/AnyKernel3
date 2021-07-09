@@ -10,8 +10,8 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=tulip
-device.name2=twolip
+device.name1=ginkgo
+device.name2=
 device.name3=
 device.name4=
 device.name5=
@@ -40,8 +40,6 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 dump_boot;
 
 # begin ramdisk changes
-
-patch_cmdline "androidboot.selinux" "androidboot.selinux=permissive"
 
 # end ramdisk changes
 
